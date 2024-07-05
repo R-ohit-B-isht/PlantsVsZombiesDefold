@@ -8,12 +8,42 @@ tilemap {
       x: 0
       y: 0
     }
+    tile_layer {
+      tile: 1
+      x: 1
+      y: 0
+    }
+    tile_layer {
+      tile: 1
+      x: 2
+      y: 0
+    }
+    tile_layer {
+      tile: 1
+      x: 3
+      y: 0
+    }
+    tile_layer {
+      tile: 1
+      x: 4
+      y: 0
+    }
   }
   layers {
     id: "objects"
     tile_layer {
       tile: 2
       x: 1
+      y: 1
+    }
+    tile_layer {
+      tile: 2
+      x: 2
+      y: 1
+    }
+    tile_layer {
+      tile: 2
+      x: 3
       y: 1
     }
   }

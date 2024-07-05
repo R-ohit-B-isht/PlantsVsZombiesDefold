@@ -1,6 +1,4 @@
-tilesource {
-  image: "/assets/tiles.png"
-  tile_size: 32
-  spacing: 0
-  margin: 0
-}
+image: "/assets/tiles.png"
+tile_size: 32
+spacing: 0
+margin: 0
