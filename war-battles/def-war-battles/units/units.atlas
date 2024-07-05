@@ -731,16 +731,16 @@ animations {
 animations {
   id: "elite-soldier-se"
   images {
-    image: "/def-war-battles/units/elite-soldier/down-d/1.png"
+    image: "/def-war-battles/units/elite-soldier/down/1.png"
   }
   images {
-    image: "/def-war-battles/units/elite-soldier/down-d/2.png"
+    image: "/def-war-battles/units/elite-soldier/down/2.png"
   }
   images {
-    image: "/def-war-battles/units/elite-soldier/down-d/3.png"
+    image: "/def-war-battles/units/elite-soldier/down/3.png"
   }
   images {
-    image: "/def-war-battles/units/elite-soldier/down-d/4.png"
+    image: "/def-war-battles/units/elite-soldier/down/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
