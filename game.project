@@ -11,7 +11,7 @@ width = 1280
 height = 720
 
 [bootstrap]
-main_collection = main/server.collection
+main_collection = main/main.collection
 
 [script]
 shared_state = 1
