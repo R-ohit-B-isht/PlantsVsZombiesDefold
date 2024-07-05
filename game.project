@@ -24,3 +24,6 @@ tilemap0 = /assets/level1.tilemap
 
 [native_extension]
 app_manifest = /game_headless.appmanifest
+
+[build]
+debug_symbols = 0
