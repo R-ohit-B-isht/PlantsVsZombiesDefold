@@ -3,47 +3,47 @@ platforms:
     x86_64-linux:
         context:
             excludeLibs: ["graphics", "sound", "record", "vpx", "tremolo", "hid"]
-            excludeSymbols: ["DefaultSoundDevice", "AudioDecoderWav", "AudioDecoderStbVorbis", "AudioDecoderTremolo"]
+            excludeSymbols: ["DefaultSoundDevice", "AudioDecoderWav", "AudioDecoderStbVorbis", "AudioDecoderTremolo", "GraphicsAdapterOpenGL"]
             libs: ["graphics_null", "sound_null", "record_null", "hid_null"]
 
     x86_64-osx:
         context:
             excludeLibs: ["graphics", "sound", "record", "vpx", "tremolo", "hid"]
-            excludeSymbols: ["DefaultSoundDevice", "AudioDecoderWav", "AudioDecoderStbVorbis", "AudioDecoderTremolo"]
+            excludeSymbols: ["DefaultSoundDevice", "AudioDecoderWav", "AudioDecoderStbVorbis", "AudioDecoderTremolo", "GraphicsAdapterOpenGL"]
             libs: ["graphics_null", "sound_null", "record_null", "hid_null"]
 
     js-web:
         context:
             excludeLibs: ["graphics", "sound", "record", "vpx", "tremolo", "hid"]
-            excludeSymbols: ["DefaultSoundDevice", "AudioDecoderWav", "AudioDecoderStbVorbis", "AudioDecoderTremolo"]
+            excludeSymbols: ["DefaultSoundDevice", "AudioDecoderWav", "AudioDecoderStbVorbis", "AudioDecoderTremolo", "GraphicsAdapterOpenGL"]
             libs: ["graphics_null", "sound_null", "record_null", "hid_null"]
 
     armv7-android:
         context:
             excludeLibs: ["graphics", "sound", "record", "vpx", "tremolo", "hid"]
-            excludeSymbols: ["DefaultSoundDevice", "AudioDecoderWav", "AudioDecoderStbVorbis", "AudioDecoderTremolo"]
+            excludeSymbols: ["DefaultSoundDevice", "AudioDecoderWav", "AudioDecoderStbVorbis", "AudioDecoderTremolo", "GraphicsAdapterOpenGL"]
             libs: ["graphics_null", "sound_null", "record_null", "hid_null"]
 
     armv7-ios:
         context:
             excludeLibs: ["graphics", "sound", "record", "vpx", "tremolo", "hid"]
-            excludeSymbols: ["DefaultSoundDevice", "AudioDecoderWav", "AudioDecoderStbVorbis", "AudioDecoderTremolo"]
+            excludeSymbols: ["DefaultSoundDevice", "AudioDecoderWav", "AudioDecoderStbVorbis", "AudioDecoderTremolo", "GraphicsAdapterOpenGL"]
             libs: ["graphics_null", "sound_null", "record_null", "hid_null"]
 
     arm64-ios:
         context:
             excludeLibs: ["graphics", "sound", "record", "vpx", "tremolo", "hid"]
-            excludeSymbols: ["DefaultSoundDevice", "AudioDecoderWav", "AudioDecoderStbVorbis", "AudioDecoderTremolo"]
+            excludeSymbols: ["DefaultSoundDevice", "AudioDecoderWav", "AudioDecoderStbVorbis", "AudioDecoderTremolo", "GraphicsAdapterOpenGL"]
             libs: ["graphics_null", "sound_null", "record_null", "hid_null"]
 
     x86-win32:
         context:
             excludeLibs: ["libgraphics", "libsound", "librecord", "libvpx", "libtremolo", "libhid"]
-            excludeSymbols: ["DefaultSoundDevice", "AudioDecoderWav", "AudioDecoderStbVorbis", "AudioDecoderTremolo"]
+            excludeSymbols: ["DefaultSoundDevice", "AudioDecoderWav", "AudioDecoderStbVorbis", "AudioDecoderTremolo", "GraphicsAdapterOpenGL"]
             libs: ["libgraphics_null", "libsound_null", "librecord_null", "libhid_null"]
 
     x86_64-win32:
         context:
             excludeLibs: ["libgraphics", "libsound", "librecord", "libvpx", "libtremolo", "libhid"]
-            excludeSymbols: ["DefaultSoundDevice", "AudioDecoderWav", "AudioDecoderStbVorbis", "AudioDecoderTremolo"]
+            excludeSymbols: ["DefaultSoundDevice", "AudioDecoderWav", "AudioDecoderStbVorbis", "AudioDecoderTremolo", "GraphicsAdapterOpenGL"]
             libs: ["libgraphics_null", "libsound_null", "librecord_null", "libhid_null"]
