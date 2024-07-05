@@ -1,4 +1,5 @@
 image: "/assets/tiles.png"
-tile_size: 32
-spacing: 0
-margin: 0
+tile_width: 32
+tile_height: 32
+tile_margin: 0
+tile_spacing: 0
