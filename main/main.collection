@@ -101,7 +101,7 @@ embedded_instances {
     }
     data: "components {\n"
     "  id: \"sprite\"\n"
-    "  component: \"/assets/sunflower.png\"\n"
+    "  component: \"/assets/sunflower_placeholder.png\"\n"
     "  position {\n"
     "    x: 0.0\n"
     "    y: 0.0\n"
@@ -124,7 +124,7 @@ embedded_instances {
     }
     data: "components {\n"
     "  id: \"sprite\"\n"
-    "  component: \"/assets/peashooter.png\"\n"
+    "  component: \"/assets/peashooter_placeholder.png\"\n"
     "  position {\n"
     "    x: 0.0\n"
     "    y: 0.0\n"
