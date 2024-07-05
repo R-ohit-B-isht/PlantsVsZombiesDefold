@@ -160,46 +160,6 @@ instances {
   }
 }
 collection_instances {
-  id: "helicopter"
-  collection: "/main/helicopter.collection"
-  position {
-    x: 581.2684
-    y: 279.73584
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-collection_instances {
-  id: "helicopter1"
-  collection: "/main/helicopter.collection"
-  position {
-    x: 1558.1365
-    y: 182.77214
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-collection_instances {
   id: "infantry-group"
   collection: "/main/infantry-group.collection"
   position {
