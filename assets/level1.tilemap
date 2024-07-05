@@ -1,0 +1,20 @@
+tilemap {
+  tilesource: "/assets/tilesource.tilesource"
+  material: "/builtins/materials/tile_map.material"
+  layers {
+    id: "ground"
+    tile_layer {
+      tile: 1
+      x: 0
+      y: 0
+    }
+  }
+  layers {
+    id: "objects"
+    tile_layer {
+      tile: 2
+      x: 1
+      y: 1
+    }
+  }
+}

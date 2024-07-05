@@ -1,0 +1,23 @@
+[project]
+title = Plants vs Zombies Defold
+version = 0.1.0
+
+[input]
+use_accelerometer = 0
+bindings = /game.input_binding
+
+[display]
+width = 1280
+height = 720
+
+[bootstrap]
+main_collection = main/main.collection
+
+[script]
+shared_state = 1
+
+[tile_sources]
+tilesource0 = /assets/tilesource.tilesource
+
+[tile_maps]
+tilemap0 = /assets/level1.tilemap

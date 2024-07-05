@@ -1,0 +1,54 @@
+function init(self)
+    -- Add initialization code here
+    msg.post(".", "acquire_input_focus")
+    self.selected_plant = nil
+    self.current_level = 1
+    self.levels = { "level1", "level2", "level3" } -- List of levels
+end
+
+function final(self)
+    -- Add finalization code here
+end
+
+function update(self, dt)
+    -- Add update code here
+end
+
+function on_message(self, message_id, message, sender)
+    if message_id == hash("start_game") then
+        -- Initialize game state and transition to gameplay
+        msg.post("main:/plant_mechanics#script", "initialize_game_state")
+        msg.post("main:/plant_mechanics#script", "transition_to_gameplay")
+    elseif message_id == hash("open_options") then
+        -- Open options menu
+        msg.post("main:/plant_mechanics#script", "open_options_menu")
+    elseif message_id == hash("level_complete") then
+        -- Handle level completion and transition to next level
+        self.current_level = self.current_level + 1
+        if self.current_level <= #self.levels then
+            local next_level = self.levels[self.current_level]
+            msg.post("main:/plant_mechanics#script", "load_level", { level = next_level })
+        else
+            print("All levels completed!")
+            -- Handle game completion (e.g., show a victory screen)
+        end
+    end
+end
+
+function on_input(self, action_id, action)
+    if action_id == hash("select") and action.pressed then
+        if self.selected_plant == "sunflower" then
+            msg.post("main:/plant_mechanics#script", "plant_sunflower", { position = vmath.vector3(action.x, action.y, 0) })
+        elseif self.selected_plant == "peashooter" then
+            msg.post("main:/plant_mechanics#script", "plant_peashooter", { position = vmath.vector3(action.x, action.y, 0) })
+        end
+    elseif action_id == hash("select_sunflower") and action.pressed then
+        self.selected_plant = "sunflower"
+    elseif action_id == hash("select_peashooter") and action.pressed then
+        self.selected_plant = "peashooter"
+    end
+end
+
+function on_reload(self)
+    -- Add reload handling code here
+end

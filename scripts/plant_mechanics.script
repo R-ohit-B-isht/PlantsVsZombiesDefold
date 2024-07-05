@@ -1,0 +1,63 @@
+function init(self)
+    -- Add initialization code here
+    msg.post(".", "acquire_input_focus")
+    self.plants = {}
+    self.sunlight = 50 -- Initial amount of sunlight
+end
+
+function final(self)
+    -- Add finalization code here
+end
+
+function update(self, dt)
+    -- Add update code here
+end
+
+function on_message(self, message_id, message, sender)
+    if message_id == hash("plant_sunflower") then
+        plant_sunflower(self, message.position)
+    elseif message_id == hash("plant_peashooter") then
+        plant_peashooter(self, message.position)
+    elseif message_id == hash("load_level") then
+        load_level(self, message.level)
+    end
+end
+
+function on_input(self, action_id, action)
+    -- Add input handling code here
+end
+
+function on_reload(self)
+    -- Add reload handling code here
+end
+
+function plant_sunflower(self, position)
+    if self.sunlight >= 50 then
+        self.sunlight = self.sunlight - 50
+        table.insert(self.plants, {type = "sunflower", position = position})
+        factory.create("#sunflower_factory", position)
+        print("Planted a sunflower at position", position)
+    else
+        print("Not enough sunlight to plant a sunflower")
+    end
+end
+
+function plant_peashooter(self, position)
+    if self.sunlight >= 100 then
+        self.sunlight = self.sunlight - 100
+        table.insert(self.plants, {type = "peashooter", position = position})
+        factory.create("#peashooter_factory", position)
+        print("Planted a peashooter at position", position)
+    else
+        print("Not enough sunlight to plant a peashooter")
+    end
+end
+
+function load_level(self, level)
+    -- Add logic to load the specified level
+    print("Loading level:", level)
+    -- Example: Load the tilemap for the specified level
+    msg.post("@render:", "clear_color", { color = vmath.vector4(0, 0, 0, 1) })
+    msg.post("@render:", "clear")
+    msg.post("main:/tilemap#tilemap", "load_level", { level = level })
+end

@@ -1,0 +1,255 @@
+name: "main"
+scale_along_z: 0
+embedded_instances {
+    id: "player"
+    position {
+        x: 0.0
+        y: 0.0
+        z: 0.0
+    }
+    data: "components {\n"
+    "  id: \"script\"\n"
+    "  component: \"/scripts/player.script\"\n"
+    "  position {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "  }\n"
+    "  rotation {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "    w: 1.0\n"
+    "  }\n"
+    "}\n"
+}
+embedded_instances {
+    id: "plant"
+    position {
+        x: 100.0
+        y: 0.0
+        z: 0.0
+    }
+    data: "components {\n"
+    "  id: \"script\"\n"
+    "  component: \"/scripts/plant.script\"\n"
+    "  position {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "  }\n"
+    "  rotation {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "    w: 1.0\n"
+    "  }\n"
+    "}\n"
+}
+embedded_instances {
+    id: "zombie"
+    position {
+        x: 200.0
+        y: 0.0
+        z: 0.0
+    }
+    data: "components {\n"
+    "  id: \"script\"\n"
+    "  component: \"/scripts/zombie.script\"\n"
+    "  position {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "  }\n"
+    "  rotation {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "    w: 1.0\n"
+    "  }\n"
+    "}\n"
+}
+embedded_instances {
+    id: "main_menu"
+    position {
+        x: 0.0
+        y: 0.0
+        z: 0.0
+    }
+    data: "components {\n"
+    "  id: \"script\"\n"
+    "  component: \"/scripts/main_menu.script\"\n"
+    "  position {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "  }\n"
+    "  rotation {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "    w: 1.0\n"
+    "  }\n"
+    "}\n"
+}
+embedded_instances {
+    id: "sunflower"
+    position {
+        x: 150.0
+        y: 0.0
+        z: 0.0
+    }
+    data: "components {\n"
+    "  id: \"sprite\"\n"
+    "  component: \"/assets/sunflower.png\"\n"
+    "  position {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "  }\n"
+    "  rotation {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "    w: 1.0\n"
+    "  }\n"
+    "}\n"
+}
+embedded_instances {
+    id: "peashooter"
+    position {
+        x: 250.0
+        y: 0.0
+        z: 0.0
+    }
+    data: "components {\n"
+    "  id: \"sprite\"\n"
+    "  component: \"/assets/peashooter.png\"\n"
+    "  position {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "  }\n"
+    "  rotation {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "    w: 1.0\n"
+    "  }\n"
+    "}\n"
+}
+embedded_instances {
+    id: "sunflower_factory"
+    position {
+        x: 0.0
+        y: 0.0
+        z: 0.0
+    }
+    data: "components {\n"
+    "  id: \"factory\"\n"
+    "  component: \"/main/sunflower.go\"\n"
+    "  position {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "  }\n"
+    "  rotation {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "    w: 1.0\n"
+    "  }\n"
+    "}\n"
+}
+embedded_instances {
+    id: "peashooter_factory"
+    position {
+        x: 0.0
+        y: 0.0
+        z: 0.0
+    }
+    data: "components {\n"
+    "  id: \"factory\"\n"
+    "  component: \"/main/peashooter.go\"\n"
+    "  position {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "  }\n"
+    "  rotation {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "    w: 1.0\n"
+    "  }\n"
+    "}\n"
+}
+embedded_instances {
+    id: "zombie_factory"
+    position {
+        x: 0.0
+        y: 0.0
+        z: 0.0
+    }
+    data: "components {\n"
+    "  id: \"factory\"\n"
+    "  component: \"/main/zombie.go\"\n"
+    "  position {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "  }\n"
+    "  rotation {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "    w: 1.0\n"
+    "  }\n"
+    "}\n"
+}
+embedded_instances {
+    id: "zombie_mechanics"
+    position {
+        x: 0.0
+        y: 0.0
+        z: 0.0
+    }
+    data: "components {\n"
+    "  id: \"script\"\n"
+    "  component: \"/scripts/zombie_mechanics.script\"\n"
+    "  position {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "  }\n"
+    "  rotation {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "    w: 1.0\n"
+    "  }\n"
+    "}\n"
+}
+embedded_instances {
+    id: "level1"
+    position {
+        x: 0.0
+        y: 0.0
+        z: 0.0
+    }
+    data: "components {\n"
+    "  id: \"tilemap\"\n"
+    "  component: \"/assets/level1.tilemap\"\n"
+    "  position {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "  }\n"
+    "  rotation {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "    w: 1.0\n"
+    "  }\n"
+    "}\n"
+}

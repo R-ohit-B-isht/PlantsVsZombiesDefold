@@ -1,0 +1,36 @@
+key_trigger {
+    input: KEY_SPACE
+    action: "jump"
+}
+key_trigger {
+    input: KEY_LEFT
+    action: "move_left"
+}
+key_trigger {
+    input: KEY_RIGHT
+    action: "move_right"
+}
+key_trigger {
+    input: KEY_UP
+    action: "move_up"
+}
+key_trigger {
+    input: KEY_DOWN
+    action: "move_down"
+}
+key_trigger {
+    input: KEY_ENTER
+    action: "select"
+}
+key_trigger {
+    input: KEY_1
+    action: "select_sunflower"
+}
+key_trigger {
+    input: KEY_2
+    action: "select_peashooter"
+}
+mouse_trigger {
+    input: MOUSE_BUTTON_LEFT
+    action: "shoot"
+}

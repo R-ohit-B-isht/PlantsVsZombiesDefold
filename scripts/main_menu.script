@@ -1,0 +1,72 @@
+function init(self)
+    -- Add initialization code here
+    msg.post(".", "acquire_input_focus")
+    self.menu_items = {"Start Game", "Select Level", "Options", "Exit"}
+    self.selected_item = 1
+    self.levels = {"Level 1", "Level 2", "Level 3"}
+    self.selected_level = 1
+    self.in_level_selection = false
+end
+
+function final(self)
+    -- Add finalization code here
+end
+
+function update(self, dt)
+    -- Add update code here
+end
+
+function on_message(self, message_id, message, sender)
+    -- Add message handling code here
+end
+
+function on_input(self, action_id, action)
+    if self.in_level_selection then
+        if action_id == hash("move_up") and action.released then
+            self.selected_level = self.selected_level - 1
+            if self.selected_level < 1 then
+                self.selected_level = #self.levels
+            end
+        elseif action_id == hash("move_down") and action.released then
+            self.selected_level = self.selected_level + 1
+            if self.selected_level > #self.levels then
+                self.selected_level = 1
+            end
+        elseif action_id == hash("select") and action.released then
+            self.in_level_selection = false
+            msg.post("main:/main#script", "start_game", { level = self.levels[self.selected_level] })
+        elseif action_id == hash("back") and action.released then
+            self.in_level_selection = false
+        end
+    else
+        if action_id == hash("move_up") and action.released then
+            self.selected_item = self.selected_item - 1
+            if self.selected_item < 1 then
+                self.selected_item = #self.menu_items
+            end
+        elseif action_id == hash("move_down") and action.released then
+            self.selected_item = self.selected_item + 1
+            if self.selected_item > #self.menu_items then
+                self.selected_item = 1
+            end
+        elseif action_id == hash("select") and action.released then
+            if self.menu_items[self.selected_item] == "Start Game" then
+                -- Start the game
+                msg.post("main:/main#script", "start_game")
+            elseif self.menu_items[self.selected_item] == "Select Level" then
+                -- Enter level selection mode
+                self.in_level_selection = true
+            elseif self.menu_items[self.selected_item] == "Options" then
+                -- Open options menu
+                msg.post("main:/main#script", "open_options")
+            elseif self.menu_items[self.selected_item] == "Exit" then
+                -- Exit the game
+                msg.post("@system:", "exit", {code = 0})
+            end
+        end
+    end
+end
+
+function on_reload(self)
+    -- Add reload handling code here
+end
