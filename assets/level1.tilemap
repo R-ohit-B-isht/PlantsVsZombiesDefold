@@ -67,4 +67,77 @@ tilemap {
       v_flip: 0
     }
   }
+  regions {
+    id: "region_0_0"
+    x: 0
+    y: 0
+    width: 32
+    height: 32
+    layers {
+      id: "ground"
+      z: 0.0
+      is_visible: 1
+      cell {
+        x: 0
+        y: 0
+        tile: 1
+        h_flip: 0
+        v_flip: 0
+      }
+      cell {
+        x: 1
+        y: 0
+        tile: 1
+        h_flip: 0
+        v_flip: 0
+      }
+      cell {
+        x: 2
+        y: 0
+        tile: 1
+        h_flip: 0
+        v_flip: 0
+      }
+      cell {
+        x: 3
+        y: 0
+        tile: 1
+        h_flip: 0
+        v_flip: 0
+      }
+      cell {
+        x: 4
+        y: 0
+        tile: 1
+        h_flip: 0
+        v_flip: 0
+      }
+    }
+    layers {
+      id: "objects"
+      z: 0.0
+      is_visible: 1
+      cell {
+        x: 1
+        y: 1
+        tile: 2
+        h_flip: 0
+        v_flip: 0
+      }
+      cell {
+        x: 2
+        y: 1
+        tile: 2
+        h_flip: 0
+        v_flip: 0
+      }
+      cell {
+        x: 3
+        y: 1
+        tile: 2
+        h_flip: 0
+        v_flip: 0
+      }
+    }
+  }
 }
