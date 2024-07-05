@@ -1,0 +1,24 @@
+-- Sunflower script to define behavior for generating sunlight
+
+-- Constants
+local SUNLIGHT_INTERVAL = 5 -- Time interval in seconds to generate sunlight
+
+-- Initialize the sunflower
+function init(self)
+    self.time_since_last_sunlight = 0
+end
+
+-- Update function to generate sunlight at regular intervals
+function update(self, dt)
+    self.time_since_last_sunlight = self.time_since_last_sunlight + dt
+    if self.time_since_last_sunlight >= SUNLIGHT_INTERVAL then
+        self.time_since_last_sunlight = 0
+        generate_sunlight()
+    end
+end
+
+-- Function to generate sunlight
+function generate_sunlight()
+    -- Logic to create sunlight resource
+    msg.post("main:/resource_manager#resource_manager", "create_sunlight")
+end
