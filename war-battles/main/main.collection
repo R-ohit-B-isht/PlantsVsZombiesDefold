@@ -160,37 +160,6 @@ instances {
   }
 }
 collection_instances {
-  id: "elite-soldier-group"
-  collection: "/main/elite-soldier-group.collection"
-  position {
-    x: 1429.3342
-    y: 464.7394
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  instance_properties {
-    id: "patrol"
-    properties {
-      id: "script"
-      properties {
-        id: "unittype"
-        value: "elite-soldier"
-        type: PROPERTY_TYPE_HASH
-      }
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-collection_instances {
   id: "helicopter"
   collection: "/main/helicopter.collection"
   position {
