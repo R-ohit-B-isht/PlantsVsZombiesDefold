@@ -56,8 +56,6 @@ end
 function load_level(self, level)
     -- Add logic to load the specified level
     print("Loading level:", level)
-    -- Example: Load the tilemap for the specified level
-    msg.post("@render:", "clear_color", { color = vmath.vector4(0, 0, 0, 1) })
-    msg.post("@render:", "clear")
-    msg.post("main:/tilemap#tilemap", "load_level", { level = level })
+    -- Example: Load the collection proxy for the specified level
+    msg.post("main:/level1_proxy#collectionproxy", "load")
 end

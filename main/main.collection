@@ -253,3 +253,26 @@ embedded_instances {
     "  }\n"
     "}\n"
 }
+embedded_instances {
+    id: "level1_proxy"
+    position {
+        x: 0.0
+        y: 0.0
+        z: 0.0
+    }
+    data: "components {\n"
+    "  id: \"collectionproxy\"\n"
+    "  component: \"/main/level1.collection\"\n"
+    "  position {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "  }\n"
+    "  rotation {\n"
+    "    x: 0.0\n"
+    "    y: 0.0\n"
+    "    z: 0.0\n"
+    "    w: 1.0\n"
+    "  }\n"
+    "}\n"
+}
