@@ -465,16 +465,16 @@ animations {
 animations {
   id: "medic-n"
   images {
-    image: "/def-war-battles/units/medic/up/1.png"
+    image: "def-war-battles/units/medic/up/1.png"
   }
   images {
-    image: "/def-war-battles/units/medic/up/2.png"
+    image: "def-war-battles/units/medic/up/2.png"
   }
   images {
-    image: "/def-war-battles/units/medic/up/3.png"
+    image: "def-war-battles/units/medic/up/3.png"
   }
   images {
-    image: "/def-war-battles/units/medic/up/4.png"
+    image: "def-war-battles/units/medic/up/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -484,16 +484,16 @@ animations {
 animations {
   id: "medic-s"
   images {
-    image: "/def-war-battles/units/medic/down/1.png"
+    image: "def-war-battles/units/medic/down/1.png"
   }
   images {
-    image: "/def-war-battles/units/medic/down/2.png"
+    image: "def-war-battles/units/medic/down/2.png"
   }
   images {
-    image: "/def-war-battles/units/medic/down/3.png"
+    image: "def-war-battles/units/medic/down/3.png"
   }
   images {
-    image: "/def-war-battles/units/medic/down/4.png"
+    image: "def-war-battles/units/medic/down/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -503,16 +503,16 @@ animations {
 animations {
   id: "medic-e"
   images {
-    image: "/def-war-battles/units/medic/side/1.png"
+    image: "def-war-battles/units/medic/side/1.png"
   }
   images {
-    image: "/def-war-battles/units/medic/side/2.png"
+    image: "def-war-battles/units/medic/side/2.png"
   }
   images {
-    image: "/def-war-battles/units/medic/side/3.png"
+    image: "def-war-battles/units/medic/side/3.png"
   }
   images {
-    image: "/def-war-battles/units/medic/side/4.png"
+    image: "def-war-battles/units/medic/side/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -522,16 +522,16 @@ animations {
 animations {
   id: "medic-w"
   images {
-    image: "/def-war-battles/units/medic/side/1.png"
+    image: "def-war-battles/units/medic/side/1.png"
   }
   images {
-    image: "/def-war-battles/units/medic/side/2.png"
+    image: "def-war-battles/units/medic/side/2.png"
   }
   images {
-    image: "/def-war-battles/units/medic/side/3.png"
+    image: "def-war-battles/units/medic/side/3.png"
   }
   images {
-    image: "/def-war-battles/units/medic/side/4.png"
+    image: "def-war-battles/units/medic/side/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -541,16 +541,16 @@ animations {
 animations {
   id: "medic-ne"
   images {
-    image: "/def-war-battles/units/medic/up/1.png"
+    image: "def-war-battles/units/medic/up/1.png"
   }
   images {
-    image: "/def-war-battles/units/medic/up/2.png"
+    image: "def-war-battles/units/medic/up/2.png"
   }
   images {
-    image: "/def-war-battles/units/medic/up/3.png"
+    image: "def-war-battles/units/medic/up/3.png"
   }
   images {
-    image: "/def-war-battles/units/medic/up/4.png"
+    image: "def-war-battles/units/medic/up/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -560,16 +560,16 @@ animations {
 animations {
   id: "medic-nw"
   images {
-    image: "/def-war-battles/units/medic/up/1.png"
+    image: "def-war-battles/units/medic/up/1.png"
   }
   images {
-    image: "/def-war-battles/units/medic/up/2.png"
+    image: "def-war-battles/units/medic/up/2.png"
   }
   images {
-    image: "/def-war-battles/units/medic/up/3.png"
+    image: "def-war-battles/units/medic/up/3.png"
   }
   images {
-    image: "/def-war-battles/units/medic/up/4.png"
+    image: "def-war-battles/units/medic/up/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -579,16 +579,16 @@ animations {
 animations {
   id: "medic-se"
   images {
-    image: "/def-war-battles/units/medic/down/1.png"
+    image: "def-war-battles/units/medic/down/1.png"
   }
   images {
-    image: "/def-war-battles/units/medic/down/2.png"
+    image: "def-war-battles/units/medic/down/2.png"
   }
   images {
-    image: "/def-war-battles/units/medic/down/3.png"
+    image: "def-war-battles/units/medic/down/3.png"
   }
   images {
-    image: "/def-war-battles/units/medic/down/4.png"
+    image: "def-war-battles/units/medic/down/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -598,16 +598,16 @@ animations {
 animations {
   id: "medic-sw"
   images {
-    image: "/def-war-battles/units/medic/down/1.png"
+    image: "def-war-battles/units/medic/down/1.png"
   }
   images {
-    image: "/def-war-battles/units/medic/down/2.png"
+    image: "def-war-battles/units/medic/down/2.png"
   }
   images {
-    image: "/def-war-battles/units/medic/down/3.png"
+    image: "def-war-battles/units/medic/down/3.png"
   }
   images {
-    image: "/def-war-battles/units/medic/down/4.png"
+    image: "def-war-battles/units/medic/down/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
