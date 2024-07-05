@@ -769,16 +769,16 @@ animations {
 animations {
   id: "infantry-n"
   images {
-    image: "def-war-battles/units/infantry/up/1.png"
+    image: "war-battles/def-war-battles/units/infantry/up/1.png"
   }
   images {
-    image: "def-war-battles/units/infantry/up/2.png"
+    image: "war-battles/def-war-battles/units/infantry/up/2.png"
   }
   images {
-    image: "def-war-battles/units/infantry/up/3.png"
+    image: "war-battles/def-war-battles/units/infantry/up/3.png"
   }
   images {
-    image: "def-war-battles/units/infantry/up/4.png"
+    image: "war-battles/def-war-battles/units/infantry/up/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -788,16 +788,16 @@ animations {
 animations {
   id: "infantry-s"
   images {
-    image: "def-war-battles/units/infantry/down/1.png"
+    image: "war-battles/def-war-battles/units/infantry/down/1.png"
   }
   images {
-    image: "def-war-battles/units/infantry/down/2.png"
+    image: "war-battles/def-war-battles/units/infantry/down/2.png"
   }
   images {
-    image: "def-war-battles/units/infantry/down/3.png"
+    image: "war-battles/def-war-battles/units/infantry/down/3.png"
   }
   images {
-    image: "def-war-battles/units/infantry/down/4.png"
+    image: "war-battles/def-war-battles/units/infantry/down/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -807,16 +807,16 @@ animations {
 animations {
   id: "infantry-e"
   images {
-    image: "def-war-battles/units/infantry/side/1.png"
+    image: "war-battles/def-war-battles/units/infantry/side/1.png"
   }
   images {
-    image: "def-war-battles/units/infantry/side/2.png"
+    image: "war-battles/def-war-battles/units/infantry/side/2.png"
   }
   images {
-    image: "def-war-battles/units/infantry/side/3.png"
+    image: "war-battles/def-war-battles/units/infantry/side/3.png"
   }
   images {
-    image: "def-war-battles/units/infantry/side/4.png"
+    image: "war-battles/def-war-battles/units/infantry/side/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -826,16 +826,16 @@ animations {
 animations {
   id: "infantry-w"
   images {
-    image: "def-war-battles/units/infantry/side/1.png"
+    image: "war-battles/def-war-battles/units/infantry/side/1.png"
   }
   images {
-    image: "def-war-battles/units/infantry/side/2.png"
+    image: "war-battles/def-war-battles/units/infantry/side/2.png"
   }
   images {
-    image: "def-war-battles/units/infantry/side/3.png"
+    image: "war-battles/def-war-battles/units/infantry/side/3.png"
   }
   images {
-    image: "def-war-battles/units/infantry/side/4.png"
+    image: "war-battles/def-war-battles/units/infantry/side/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -845,16 +845,16 @@ animations {
 animations {
   id: "infantry-ne"
   images {
-    image: "def-war-battles/units/infantry/up-d/1.png"
+    image: "war-battles/def-war-battles/units/infantry/up-d/1.png"
   }
   images {
-    image: "def-war-battles/units/infantry/up-d/2.png"
+    image: "war-battles/def-war-battles/units/infantry/up-d/2.png"
   }
   images {
-    image: "def-war-battles/units/infantry/up-d/3.png"
+    image: "war-battles/def-war-battles/units/infantry/up-d/3.png"
   }
   images {
-    image: "def-war-battles/units/infantry/up-d/4.png"
+    image: "war-battles/def-war-battles/units/infantry/up-d/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -864,16 +864,16 @@ animations {
 animations {
   id: "infantry-nw"
   images {
-    image: "def-war-battles/units/infantry/up-d/1.png"
+    image: "war-battles/def-war-battles/units/infantry/up-d/1.png"
   }
   images {
-    image: "def-war-battles/units/infantry/up-d/2.png"
+    image: "war-battles/def-war-battles/units/infantry/up-d/2.png"
   }
   images {
-    image: "def-war-battles/units/infantry/up-d/3.png"
+    image: "war-battles/def-war-battles/units/infantry/up-d/3.png"
   }
   images {
-    image: "def-war-battles/units/infantry/up-d/4.png"
+    image: "war-battles/def-war-battles/units/infantry/up-d/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -883,16 +883,16 @@ animations {
 animations {
   id: "infantry-se"
   images {
-    image: "def-war-battles/units/infantry/down-d/1.png"
+    image: "war-battles/def-war-battles/units/infantry/down-d/1.png"
   }
   images {
-    image: "def-war-battles/units/infantry/down-d/2.png"
+    image: "war-battles/def-war-battles/units/infantry/down-d/2.png"
   }
   images {
-    image: "def-war-battles/units/infantry/down-d/3.png"
+    image: "war-battles/def-war-battles/units/infantry/down-d/3.png"
   }
   images {
-    image: "def-war-battles/units/infantry/down-d/4.png"
+    image: "war-battles/def-war-battles/units/infantry/down-d/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -902,16 +902,16 @@ animations {
 animations {
   id: "infantry-sw"
   images {
-    image: "def-war-battles/units/infantry/down-d/1.png"
+    image: "war-battles/def-war-battles/units/infantry/down-d/1.png"
   }
   images {
-    image: "def-war-battles/units/infantry/down-d/2.png"
+    image: "war-battles/def-war-battles/units/infantry/down-d/2.png"
   }
   images {
-    image: "def-war-battles/units/infantry/down-d/3.png"
+    image: "war-battles/def-war-battles/units/infantry/down-d/3.png"
   }
   images {
-    image: "def-war-battles/units/infantry/down-d/4.png"
+    image: "war-battles/def-war-battles/units/infantry/down-d/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
