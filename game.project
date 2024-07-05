@@ -27,3 +27,6 @@ app_manifest = game_headless.appmanifest
 
 [build]
 debug_symbols = 0
+
+[war_battles]
+directory = /war-battles/def-war-battles
