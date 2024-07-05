@@ -49,7 +49,7 @@ velocity_threshold = 1
 max_fixed_timesteps = 2
 
 [bootstrap]
-main_collection = main/main.collection
+main_collection = main/server.collection
 render = /builtins/render/default.renderc
 
 [graphics]
@@ -206,4 +206,16 @@ max_tile_count = 2048
 [engine]
 run_while_iconified = 0
 fixed_update_frequency = 60
+
+[tile_sources]
+tilesource0 = /assets/tilesource.tilesource
+
+[tile_maps]
+tilemap0 = /assets/level1.tilemap
+
+[native_extension]
+app_manifest = game_headless.appmanifest
+
+[build]
+debug_symbols = 0
 
