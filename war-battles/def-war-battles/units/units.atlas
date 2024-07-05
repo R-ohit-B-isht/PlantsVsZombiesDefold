@@ -541,16 +541,16 @@ animations {
 animations {
   id: "medic-ne"
   images {
-    image: "/def-war-battles/units/medic/up-d/1.png"
+    image: "/def-war-battles/units/medic/up/1.png"
   }
   images {
-    image: "/def-war-battles/units/medic/up-d/2.png"
+    image: "/def-war-battles/units/medic/up/2.png"
   }
   images {
-    image: "/def-war-battles/units/medic/up-d/3.png"
+    image: "/def-war-battles/units/medic/up/3.png"
   }
   images {
-    image: "/def-war-battles/units/medic/up-d/4.png"
+    image: "/def-war-battles/units/medic/up/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -560,16 +560,16 @@ animations {
 animations {
   id: "medic-nw"
   images {
-    image: "/def-war-battles/units/medic/up-d/1.png"
+    image: "/def-war-battles/units/medic/up/1.png"
   }
   images {
-    image: "/def-war-battles/units/medic/up-d/2.png"
+    image: "/def-war-battles/units/medic/up/2.png"
   }
   images {
-    image: "/def-war-battles/units/medic/up-d/3.png"
+    image: "/def-war-battles/units/medic/up/3.png"
   }
   images {
-    image: "/def-war-battles/units/medic/up-d/4.png"
+    image: "/def-war-battles/units/medic/up/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -579,16 +579,16 @@ animations {
 animations {
   id: "medic-se"
   images {
-    image: "/def-war-battles/units/medic/down-d/1.png"
+    image: "/def-war-battles/units/medic/down/1.png"
   }
   images {
-    image: "/def-war-battles/units/medic/down-d/2.png"
+    image: "/def-war-battles/units/medic/down/2.png"
   }
   images {
-    image: "/def-war-battles/units/medic/down-d/3.png"
+    image: "/def-war-battles/units/medic/down/3.png"
   }
   images {
-    image: "/def-war-battles/units/medic/down-d/4.png"
+    image: "/def-war-battles/units/medic/down/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -598,16 +598,16 @@ animations {
 animations {
   id: "medic-sw"
   images {
-    image: "/def-war-battles/units/medic/down-d/1.png"
+    image: "/def-war-battles/units/medic/down/1.png"
   }
   images {
-    image: "/def-war-battles/units/medic/down-d/2.png"
+    image: "/def-war-battles/units/medic/down/2.png"
   }
   images {
-    image: "/def-war-battles/units/medic/down-d/3.png"
+    image: "/def-war-battles/units/medic/down/3.png"
   }
   images {
-    image: "/def-war-battles/units/medic/down-d/4.png"
+    image: "/def-war-battles/units/medic/down/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -693,16 +693,16 @@ animations {
 animations {
   id: "elite-soldier-ne"
   images {
-    image: "/def-war-battles/units/elite-soldier/up-d/1.png"
+    image: "/def-war-battles/units/elite-soldier/up/1.png"
   }
   images {
-    image: "/def-war-battles/units/elite-soldier/up-d/2.png"
+    image: "/def-war-battles/units/elite-soldier/up/2.png"
   }
   images {
-    image: "/def-war-battles/units/elite-soldier/up-d/3.png"
+    image: "/def-war-battles/units/elite-soldier/up/3.png"
   }
   images {
-    image: "/def-war-battles/units/elite-soldier/up-d/4.png"
+    image: "/def-war-battles/units/elite-soldier/up/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -712,16 +712,16 @@ animations {
 animations {
   id: "elite-soldier-nw"
   images {
-    image: "/def-war-battles/units/elite-soldier/up-d/1.png"
+    image: "/def-war-battles/units/elite-soldier/up/1.png"
   }
   images {
-    image: "/def-war-battles/units/elite-soldier/up-d/2.png"
+    image: "/def-war-battles/units/elite-soldier/up/2.png"
   }
   images {
-    image: "/def-war-battles/units/elite-soldier/up-d/3.png"
+    image: "/def-war-battles/units/elite-soldier/up/3.png"
   }
   images {
-    image: "/def-war-battles/units/elite-soldier/up-d/4.png"
+    image: "/def-war-battles/units/elite-soldier/up/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -750,16 +750,16 @@ animations {
 animations {
   id: "elite-soldier-sw"
   images {
-    image: "/def-war-battles/units/elite-soldier/down-d/1.png"
+    image: "/def-war-battles/units/elite-soldier/down/1.png"
   }
   images {
-    image: "/def-war-battles/units/elite-soldier/down-d/2.png"
+    image: "/def-war-battles/units/elite-soldier/down/2.png"
   }
   images {
-    image: "/def-war-battles/units/elite-soldier/down-d/3.png"
+    image: "/def-war-battles/units/elite-soldier/down/3.png"
   }
   images {
-    image: "/def-war-battles/units/elite-soldier/down-d/4.png"
+    image: "/def-war-battles/units/elite-soldier/down/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
