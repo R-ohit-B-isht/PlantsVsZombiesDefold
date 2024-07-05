@@ -105,10 +105,10 @@ animations {
 animations {
   id: "tank-n"
   images {
-    image: "/def-war-battles/units/tank/up/1.png"
+    image: "def-war-battles/units/tank/up/1.png"
   }
   images {
-    image: "/def-war-battles/units/tank/up/2.png"
+    image: "def-war-battles/units/tank/up/2.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -118,10 +118,10 @@ animations {
 animations {
   id: "tank-s"
   images {
-    image: "/def-war-battles/units/tank/down/1.png"
+    image: "def-war-battles/units/tank/down/1.png"
   }
   images {
-    image: "/def-war-battles/units/tank/down/2.png"
+    image: "def-war-battles/units/tank/down/2.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -131,10 +131,10 @@ animations {
 animations {
   id: "tank-e"
   images {
-    image: "/def-war-battles/units/tank/side/1.png"
+    image: "def-war-battles/units/tank/side/1.png"
   }
   images {
-    image: "/def-war-battles/units/tank/side/2.png"
+    image: "def-war-battles/units/tank/side/2.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -144,10 +144,10 @@ animations {
 animations {
   id: "tank-w"
   images {
-    image: "/def-war-battles/units/tank/side/1.png"
+    image: "def-war-battles/units/tank/side/1.png"
   }
   images {
-    image: "/def-war-battles/units/tank/side/2.png"
+    image: "def-war-battles/units/tank/side/2.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -157,10 +157,10 @@ animations {
 animations {
   id: "tank-ne"
   images {
-    image: "/def-war-battles/units/tank/up-d/1.png"
+    image: "def-war-battles/units/tank/up-d/1.png"
   }
   images {
-    image: "/def-war-battles/units/tank/up-d/2.png"
+    image: "def-war-battles/units/tank/up-d/2.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -170,10 +170,10 @@ animations {
 animations {
   id: "tank-nw"
   images {
-    image: "/def-war-battles/units/tank/up-d/1.png"
+    image: "def-war-battles/units/tank/up-d/1.png"
   }
   images {
-    image: "/def-war-battles/units/tank/up-d/2.png"
+    image: "def-war-battles/units/tank/up-d/2.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -183,10 +183,10 @@ animations {
 animations {
   id: "tank-se"
   images {
-    image: "/def-war-battles/units/tank/down-d/1.png"
+    image: "def-war-battles/units/tank/down-d/1.png"
   }
   images {
-    image: "/def-war-battles/units/tank/down-d/2.png"
+    image: "def-war-battles/units/tank/down-d/2.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -196,10 +196,10 @@ animations {
 animations {
   id: "tank-sw"
   images {
-    image: "/def-war-battles/units/tank/down-d/1.png"
+    image: "def-war-battles/units/tank/down-d/1.png"
   }
   images {
-    image: "/def-war-battles/units/tank/down-d/2.png"
+    image: "def-war-battles/units/tank/down-d/2.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
