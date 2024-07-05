@@ -21,3 +21,6 @@ tilesource0 = /assets/tilesource.tilesource
 
 [tile_maps]
 tilemap0 = /assets/level1.tilemap
+
+[native_extension]
+app_manifest = /game_headless.appmanifest
