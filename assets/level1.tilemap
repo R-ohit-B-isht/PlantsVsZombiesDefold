@@ -67,32 +67,4 @@ tilemap {
       v_flip: 0
     }
   }
-  regions {
-    id: "region_0_0"
-    x: 0
-    y: 0
-    width: 32
-    height: 32
-  }
-  regions {
-    id: "region_1_0"
-    x: 32
-    y: 0
-    width: 32
-    height: 32
-  }
-  regions {
-    id: "region_0_1"
-    x: 0
-    y: 32
-    width: 32
-    height: 32
-  }
-  regions {
-    id: "region_1_1"
-    x: 32
-    y: 32
-    width: 32
-    height: 32
-  }
 }
