@@ -7,3 +7,4 @@ defold/engine/gamesys/src/gamesys/test/tile/
 defold/engine/gamesys/src/gamesys/test/misc/
 defold/engine/gamesys/src/gamesys/test/resource/
 defold/engine/gamesys/src/gamesys/test/model/
+defold/engine/gamesys/src/gamesys/test/render_target/
