@@ -9,3 +9,5 @@ defold/engine/gamesys/src/gamesys/test/resource/
 defold/engine/gamesys/src/gamesys/test/model/
 defold/engine/gamesys/src/gamesys/test/render_target/
 defold/engine/gamesys/src/gamesys/test/animationset/
+defold/engine/gamesys/src/gamesys/test/collection_factory/
+defold/engine/gamesys/src/gamesys/test/
