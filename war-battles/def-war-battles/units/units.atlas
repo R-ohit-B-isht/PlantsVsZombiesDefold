@@ -313,16 +313,16 @@ animations {
 animations {
   id: "worker-n"
   images {
-    image: "war-battles/def-war-battles/units/worker/up/1.png"
+    image: "war-battles/units/worker/up/1.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/up/2.png"
+    image: "war-battles/units/worker/up/2.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/up/3.png"
+    image: "war-battles/units/worker/up/3.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/up/4.png"
+    image: "war-battles/units/worker/up/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -332,16 +332,16 @@ animations {
 animations {
   id: "worker-s"
   images {
-    image: "war-battles/def-war-battles/units/worker/down/1.png"
+    image: "war-battles/units/worker/down/1.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/down/2.png"
+    image: "war-battles/units/worker/down/2.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/down/3.png"
+    image: "war-battles/units/worker/down/3.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/down/4.png"
+    image: "war-battles/units/worker/down/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -351,16 +351,16 @@ animations {
 animations {
   id: "worker-e"
   images {
-    image: "war-battles/def-war-battles/units/worker/side/1.png"
+    image: "war-battles/units/worker/side/1.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/side/2.png"
+    image: "war-battles/units/worker/side/2.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/side/3.png"
+    image: "war-battles/units/worker/side/3.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/side/4.png"
+    image: "war-battles/units/worker/side/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -370,16 +370,16 @@ animations {
 animations {
   id: "worker-w"
   images {
-    image: "war-battles/def-war-battles/units/worker/side/1.png"
+    image: "war-battles/units/worker/side/1.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/side/2.png"
+    image: "war-battles/units/worker/side/2.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/side/3.png"
+    image: "war-battles/units/worker/side/3.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/side/4.png"
+    image: "war-battles/units/worker/side/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -389,16 +389,16 @@ animations {
 animations {
   id: "worker-ne"
   images {
-    image: "war-battles/def-war-battles/units/worker/up-d/1.png"
+    image: "war-battles/units/worker/up-d/1.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/up-d/2.png"
+    image: "war-battles/units/worker/up-d/2.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/up-d/3.png"
+    image: "war-battles/units/worker/up-d/3.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/up-d/4.png"
+    image: "war-battles/units/worker/up-d/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -408,16 +408,16 @@ animations {
 animations {
   id: "worker-nw"
   images {
-    image: "war-battles/def-war-battles/units/worker/up-d/1.png"
+    image: "war-battles/units/worker/up-d/1.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/up-d/2.png"
+    image: "war-battles/units/worker/up-d/2.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/up-d/3.png"
+    image: "war-battles/units/worker/up-d/3.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/up-d/4.png"
+    image: "war-battles/units/worker/up-d/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -427,16 +427,16 @@ animations {
 animations {
   id: "worker-se"
   images {
-    image: "war-battles/def-war-battles/units/worker/down-d/1.png"
+    image: "war-battles/units/worker/down-d/1.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/down-d/2.png"
+    image: "war-battles/units/worker/down-d/2.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/down-d/3.png"
+    image: "war-battles/units/worker/down-d/3.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/down-d/4.png"
+    image: "war-battles/units/worker/down-d/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -446,16 +446,16 @@ animations {
 animations {
   id: "worker-sw"
   images {
-    image: "war-battles/def-war-battles/units/worker/down-d/1.png"
+    image: "war-battles/units/worker/down-d/1.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/down-d/2.png"
+    image: "war-battles/units/worker/down-d/2.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/down-d/3.png"
+    image: "war-battles/units/worker/down-d/3.png"
   }
   images {
-    image: "war-battles/def-war-battles/units/worker/down-d/4.png"
+    image: "war-battles/units/worker/down-d/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
