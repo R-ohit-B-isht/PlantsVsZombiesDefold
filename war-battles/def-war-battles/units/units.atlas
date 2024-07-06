@@ -617,16 +617,16 @@ animations {
 animations {
   id: "elite-soldier-n"
   images {
-    image: "war-battles/units/elite-soldier/up/1.png"
+    image: "/war-battles/units/elite-soldier/up/1.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/up/2.png"
+    image: "/war-battles/units/elite-soldier/up/2.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/up/3.png"
+    image: "/war-battles/units/elite-soldier/up/3.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/up/4.png"
+    image: "/war-battles/units/elite-soldier/up/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -636,16 +636,16 @@ animations {
 animations {
   id: "elite-soldier-s"
   images {
-    image: "war-battles/units/elite-soldier/down/1.png"
+    image: "/war-battles/units/elite-soldier/down/1.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/down/2.png"
+    image: "/war-battles/units/elite-soldier/down/2.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/down/3.png"
+    image: "/war-battles/units/elite-soldier/down/3.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/down/4.png"
+    image: "/war-battles/units/elite-soldier/down/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -655,16 +655,16 @@ animations {
 animations {
   id: "elite-soldier-e"
   images {
-    image: "war-battles/units/elite-soldier/side/1.png"
+    image: "/war-battles/units/elite-soldier/side/1.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/side/2.png"
+    image: "/war-battles/units/elite-soldier/side/2.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/side/3.png"
+    image: "/war-battles/units/elite-soldier/side/3.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/side/4.png"
+    image: "/war-battles/units/elite-soldier/side/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -674,16 +674,16 @@ animations {
 animations {
   id: "elite-soldier-w"
   images {
-    image: "war-battles/units/elite-soldier/side/1.png"
+    image: "/war-battles/units/elite-soldier/side/1.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/side/2.png"
+    image: "/war-battles/units/elite-soldier/side/2.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/side/3.png"
+    image: "/war-battles/units/elite-soldier/side/3.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/side/4.png"
+    image: "/war-battles/units/elite-soldier/side/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -693,16 +693,16 @@ animations {
 animations {
   id: "elite-soldier-ne"
   images {
-    image: "war-battles/units/elite-soldier/up/1.png"
+    image: "/war-battles/units/elite-soldier/up/1.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/up/2.png"
+    image: "/war-battles/units/elite-soldier/up/2.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/up/3.png"
+    image: "/war-battles/units/elite-soldier/up/3.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/up/4.png"
+    image: "/war-battles/units/elite-soldier/up/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -712,16 +712,16 @@ animations {
 animations {
   id: "elite-soldier-nw"
   images {
-    image: "war-battles/units/elite-soldier/up/1.png"
+    image: "/war-battles/units/elite-soldier/up/1.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/up/2.png"
+    image: "/war-battles/units/elite-soldier/up/2.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/up/3.png"
+    image: "/war-battles/units/elite-soldier/up/3.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/up/4.png"
+    image: "/war-battles/units/elite-soldier/up/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -731,16 +731,16 @@ animations {
 animations {
   id: "elite-soldier-se"
   images {
-    image: "war-battles/units/elite-soldier/down/1.png"
+    image: "/war-battles/units/elite-soldier/down/1.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/down/2.png"
+    image: "/war-battles/units/elite-soldier/down/2.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/down/3.png"
+    image: "/war-battles/units/elite-soldier/down/3.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/down/4.png"
+    image: "/war-battles/units/elite-soldier/down/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -750,16 +750,16 @@ animations {
 animations {
   id: "elite-soldier-sw"
   images {
-    image: "war-battles/units/elite-soldier/down/1.png"
+    image: "/war-battles/units/elite-soldier/down/1.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/down/2.png"
+    image: "/war-battles/units/elite-soldier/down/2.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/down/3.png"
+    image: "/war-battles/units/elite-soldier/down/3.png"
   }
   images {
-    image: "war-battles/units/elite-soldier/down/4.png"
+    image: "/war-battles/units/elite-soldier/down/4.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
