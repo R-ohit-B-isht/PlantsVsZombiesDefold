@@ -7,7 +7,7 @@ tilemap {
     cell {
       x: 0
       y: 0
-      tile: 1
+      tile: 0
       h_flip: 0
       v_flip: 0
     }
@@ -42,7 +42,7 @@ tilemap {
     cell {
       x: 5
       y: 0
-      tile: 1
+      tile: 0
       h_flip: 0
       v_flip: 0
     }
@@ -105,7 +105,7 @@ tilemap {
     cell {
       x: 2
       y: 1
-      tile: 1
+      tile: 0
       h_flip: 0
       v_flip: 0
     }
@@ -133,7 +133,7 @@ tilemap {
     cell {
       x: 6
       y: 1
-      tile: 1
+      tile: 0
       h_flip: 0
       v_flip: 0
     }
@@ -161,7 +161,7 @@ tilemap {
     cell {
       x: 10
       y: 1
-      tile: 1
+      tile: 0
       h_flip: 0
       v_flip: 0
     }
@@ -196,7 +196,7 @@ tilemap {
     cell {
       x: 3
       y: 2
-      tile: 1
+      tile: 0
       h_flip: 0
       v_flip: 0
     }
@@ -224,7 +224,7 @@ tilemap {
     cell {
       x: 7
       y: 2
-      tile: 1
+      tile: 0
       h_flip: 0
       v_flip: 0
     }
@@ -252,7 +252,7 @@ tilemap {
     cell {
       x: 11
       y: 2
-      tile: 1
+      tile: 0
       h_flip: 0
       v_flip: 0
     }
