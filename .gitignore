@@ -5,3 +5,4 @@ build/
 # Ignore other untracked files
 *.log
 *.tmp
+build-report_time.html
