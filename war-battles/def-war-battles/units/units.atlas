@@ -1,10 +1,10 @@
 animations {
   id: "helicopter-n"
   images {
-    image: "units/helicopter/up/1.png"
+    image: "helicopter/up/1.png"
   }
   images {
-    image: "units/helicopter/up/2.png"
+    image: "helicopter/up/2.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -14,10 +14,10 @@ animations {
 animations {
   id: "helicopter-s"
   images {
-    image: "units/helicopter/down/1.png"
+    image: "helicopter/down/1.png"
   }
   images {
-    image: "units/helicopter/down/2.png"
+    image: "helicopter/down/2.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -27,10 +27,10 @@ animations {
 animations {
   id: "helicopter-e"
   images {
-    image: "units/helicopter/side/1.png"
+    image: "helicopter/side/1.png"
   }
   images {
-    image: "units/helicopter/side/2.png"
+    image: "helicopter/side/2.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -40,10 +40,10 @@ animations {
 animations {
   id: "helicopter-w"
   images {
-    image: "units/helicopter/side/1.png"
+    image: "helicopter/side/1.png"
   }
   images {
-    image: "units/helicopter/side/2.png"
+    image: "helicopter/side/2.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -53,10 +53,10 @@ animations {
 animations {
   id: "helicopter-ne"
   images {
-    image: "units/helicopter/up-d/1.png"
+    image: "helicopter/up-d/1.png"
   }
   images {
-    image: "units/helicopter/up-d/2.png"
+    image: "helicopter/up-d/2.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -66,10 +66,10 @@ animations {
 animations {
   id: "helicopter-nw"
   images {
-    image: "units/helicopter/up-d/1.png"
+    image: "helicopter/up-d/1.png"
   }
   images {
-    image: "units/helicopter/up-d/2.png"
+    image: "helicopter/up-d/2.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -79,10 +79,10 @@ animations {
 animations {
   id: "helicopter-se"
   images {
-    image: "units/helicopter/down-d/1.png"
+    image: "helicopter/down-d/1.png"
   }
   images {
-    image: "units/helicopter/down-d/2.png"
+    image: "helicopter/down-d/2.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -92,10 +92,10 @@ animations {
 animations {
   id: "helicopter-sw"
   images {
-    image: "units/helicopter/down-d/1.png"
+    image: "helicopter/down-d/1.png"
   }
   images {
-    image: "units/helicopter/down-d/2.png"
+    image: "helicopter/down-d/2.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
