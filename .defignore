@@ -13,3 +13,4 @@ defold/engine/gamesys/src/gamesys/test/collection_factory/
 defold/engine/gamesys/src/gamesys/test/
 defold/engine/gui/src/test/
 defold/engine/gameobject/src/gameobject/test/
+defold/engine/engine/src/test/
