@@ -1,4 +1,4 @@
-image: "/assets/tiles_combined.png"
+image: "/assets/tiles.png"
 tile_width: 32
 tile_height: 32
 tile_margin: 0
