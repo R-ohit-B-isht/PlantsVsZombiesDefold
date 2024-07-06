@@ -2,3 +2,4 @@ defold/com.dynamo.cr/com.dynamo.cr.bob.test/
 defold/engine/particle/src/test/
 defold/engine/gamesys/src/gamesys/test/gui/
 defold/engine/gamesys/src/gamesys/test/textureset/
+defold/engine/gamesys/src/gamesys/test/mesh_prebuilt_project/mesh/
