@@ -617,7 +617,7 @@ animations {
 animations {
   id: "elite-soldier-n"
   images {
-    image: "war-battles/def-war-battles/units/elite-soldier-placeholder.png"
+    image: "war-battles/units/elite-soldier-placeholder.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -627,7 +627,7 @@ animations {
 animations {
   id: "elite-soldier-s"
   images {
-    image: "war-battles/def-war-battles/units/elite-soldier-placeholder.png"
+    image: "war-battles/units/elite-soldier-placeholder.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -637,7 +637,7 @@ animations {
 animations {
   id: "elite-soldier-e"
   images {
-    image: "war-battles/def-war-battles/units/elite-soldier-placeholder.png"
+    image: "war-battles/units/elite-soldier-placeholder.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -647,7 +647,7 @@ animations {
 animations {
   id: "elite-soldier-w"
   images {
-    image: "war-battles/def-war-battles/units/elite-soldier-placeholder.png"
+    image: "war-battles/units/elite-soldier-placeholder.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -657,7 +657,7 @@ animations {
 animations {
   id: "elite-soldier-ne"
   images {
-    image: "war-battles/def-war-battles/units/elite-soldier-placeholder.png"
+    image: "war-battles/units/elite-soldier-placeholder.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -667,7 +667,7 @@ animations {
 animations {
   id: "elite-soldier-nw"
   images {
-    image: "war-battles/def-war-battles/units/elite-soldier-placeholder.png"
+    image: "war-battles/units/elite-soldier-placeholder.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -677,7 +677,7 @@ animations {
 animations {
   id: "elite-soldier-se"
   images {
-    image: "war-battles/def-war-battles/units/elite-soldier-placeholder.png"
+    image: "war-battles/units/elite-soldier-placeholder.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
@@ -687,7 +687,7 @@ animations {
 animations {
   id: "elite-soldier-sw"
   images {
-    image: "war-battles/def-war-battles/units/elite-soldier-placeholder.png"
+    image: "war-battles/units/elite-soldier-placeholder.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 8
